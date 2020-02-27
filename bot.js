@@ -69,8 +69,8 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 });
                 setTimeout(function(){bot.sendMessage({
                   to: '682305475521413145',
-                  message: '<@&'+role1ID+'> new spawn (should) be up!'
-                })}, 5400000);
+                  message: '<@&'+role1ID+'> new spawn (should) be up in 2 minutes!'
+                })}, 5280000);
               } else {
                 bot.sendMessage({
                   to: channelID,
