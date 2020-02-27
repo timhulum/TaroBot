@@ -62,7 +62,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
               break;
             case 'sitedone':
               if (spawnTime1 == 0){
-                spawnTime1 = new Date().addHours(1.33).toUTCString();
+                spawnTime1 = new Date().addHours(1.3).toUTCString();
                 bot.sendMessage({
                   to: channelID,
                   message: "```New spawn at:\n" + spawnTime1 + "\npinging @timer in 1:30```"
